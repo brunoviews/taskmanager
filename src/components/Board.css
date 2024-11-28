@@ -1,0 +1,61 @@
+/* Board.css */
+.board {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: fit-content; /* Ajustar el ancho máximo */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.board-title {
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #495057;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.board-lists-container {
+    display: flex;
+    gap: 20px; /* Espaciado entre listas */
+    justify-content: space-between; /* Alineación horizontal */
+    overflow-x: auto; /* Permitir desplazamiento horizontal si hay muchas listas */
+}
+
+.change-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 5px ;
+}
+
+.change-title:hover {
+    scale: 1.1;
+    transition: all 0.3s ease;
+}
+
+.change-title-button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 5px 10px;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.change-title-button:hover {
+    background-color: green;
+    scale: 1.1;
+    transition: all 0.3s ease;
+}
